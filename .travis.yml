@@ -1,0 +1,4 @@
+language: generic
+addons:
+        ssh_known_hosts: 125.212.227.42
+script: cd /home/hoangnm/web/ai-news.xyz/html && git pull origin master
